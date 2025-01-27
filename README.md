@@ -29,7 +29,7 @@ Following libraries were used for making this project:
 
 ## Framework
 ### Single Player Pong
-In this mode player 2 joystick is disabled. Ball gets reflected from all boundaries except for the sind on which pad is present (left side). Every time ball hits the pad, its velocity in x direction is randomized between 1 to 3 pixels per iteration. Speed in y direction is constant 2 pixels per iteration. The sign of speed values is reversed whenever ball collides with boundary or pad.
+In this mode player 2 joystick is disabled. Ball gets reflected from all boundaries except for the side on which pad is present (left side). Every time ball hits the pad, its velocity in x direction is randomized between 1 to 3 pixels per iteration. Speed in y direction is constant 2 pixels per iteration. The sign of speed values is reversed whenever ball collides with boundary or pad.
 Value of joystick is measured per iteration and pad is moved depending on the value.
 ### Two Player Pong
 There are 2 pads in this mode, each controlled by one joystick. Ball is reflected only from vertical boundaries and both of the pads. Similar to single player mode, x direction speed of ball is randomized whenever it hits either of the pads. Rest is same as single player mode.
