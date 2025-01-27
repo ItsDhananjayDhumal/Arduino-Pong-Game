@@ -48,4 +48,4 @@ _Image of the setup_
 git clone https://github.com/ItsDhananjayDhumal/OLED_Game
 cd OLED_Pong
 ```
-The [libraries](#libraries) mentioned above need to be separately downloaded
+The [libraries](#libraries) need to be separately downloaded
