@@ -37,12 +37,13 @@ There are 2 pads in this mode, each controlled by one joystick. Ball is reflecte
 ## Project
 ![WhatsApp Image 2025-01-27 at 15 25 53](https://github.com/user-attachments/assets/a34ad7e4-a0e8-4412-9b4a-ad13d268e069)
 _Image of the setup_
-### Single Player
-![WhatsAppVideo2025-01-27at17 27 47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e81aa0d6-4b2b-4c7e-8936-39eab3d1351f)
 
-### Two Player
-![WhatsAppVideo2025-01-27at17 33 02-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/03989de1-8d4b-43be-a9de-49b3e1c8396f)
-
+---
+### *Single Player*
+> ![WhatsAppVideo2025-01-27at17 27 47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e81aa0d6-4b2b-4c7e-8936-39eab3d1351f)
+### *Two Player*
+> ![WhatsAppVideo2025-01-27at17 33 02-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/03989de1-8d4b-43be-a9de-49b3e1c8396f)
+---
 ## Installation
 ```shell
 git clone https://github.com/ItsDhananjayDhumal/OLED_Game
