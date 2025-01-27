@@ -9,6 +9,9 @@ Pong is one of the first ever computer games ever made. We made pong game using 
 ## Table of contents
 1. [Libraries](#libraries)
 2. [Hardware](#hardware)
+3. [Framework](#framework)
+4. [Project](#project)
+5. [Installlation](#installation)
 
 ## Libraries
 Following libraries were used for making this project:
@@ -22,9 +25,24 @@ Following libraries were used for making this project:
 * Arduino UNO
 * Joysticks
 
-## Code Implementation
+## Framework
 ### Single Player Pong
 In this mode player 2 joystick is disabled. Ball gets reflected from all boundaries except for the sind on which pad is present (left side). Every time ball hits the pad, its velocity in x direction is randomized between 1 to 3 pixels per iteration. Speed in y direction is constant 2 pixels per iteration. The sign of speed values is reversed whenever ball collides with boundary or pad.
 Value of joystick is measured per iteration and pad is moved depending on the value.
 ### Two Player Pong
-There are 2 pads in this mode, each controlled by one joystick. Rest code is similar to single player pong.
+There are 2 pads in this mode, each controlled by one joystick. Ball is reflected only from vertical boundaries and both of the pads. Similar to single player mode, x direction speed of ball is randomized whenever it hits either of the pads. Rest is same as single player mode.
+
+## Project
+![WhatsApp Image 2025-01-27 at 15 25 53](https://github.com/user-attachments/assets/a34ad7e4-a0e8-4412-9b4a-ad13d268e069)
+_Image of the setup_
+### Single Player
+![WhatsAppVideo2025-01-27at17 27 47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e81aa0d6-4b2b-4c7e-8936-39eab3d1351f)
+
+### Two Player
+![WhatsAppVideo2025-01-27at17 33 02-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/03989de1-8d4b-43be-a9de-49b3e1c8396f)
+
+## Installation
+```shell
+git clone https://github.com/ItsDhananjayDhumal/OLED_Game
+cd OLED_Pong
+```
