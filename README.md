@@ -15,15 +15,16 @@ Pong is one of the first ever computer games ever made. We made pong game using 
 
 ## Libraries
 Following libraries were used for making this project:
-* [`Adafruit_GFX.h`](https://learn.adafruit.com/adafruit-gfx-graphics-library) is a library developed by Adafruit to create graphics on LCD and OLED displays and LED matrices.
-* [`Adafruit_SSD1306.h`](https://github.com/adafruit/Adafruit_SSD1306) is used to drive monochrome 128 x 64 and 128 x 32 OLED displays.
-* [`SPI.h`](https://docs.arduino.cc/language-reference/en/functions/communication/SPI/) is used for communication between Arduino and SPI devices. Used only when OLED used SPI protocol, not needed for I2C.
-* [`Wire.h`](https://docs.arduino.cc/language-reference/en/functions/communication/wire/) is used for I2C protocol.
+> * [`Adafruit_GFX.h`](https://learn.adafruit.com/adafruit-gfx-graphics-library) is a library developed by Adafruit to create graphics on LCD and OLED displays and LED matrices.
+> * [`Adafruit_SSD1306.h`](https://github.com/adafruit/Adafruit_SSD1306) is used to drive monochrome 128 x 64 and 128 x 32 OLED displays.
+> * [`SPI.h`](https://docs.arduino.cc/language-reference/en/functions/communication/SPI/) is used for communication between Arduino and SPI devices. Used only when OLED used SPI protocol, not needed for I2C.
+> * [`Wire.h`](https://docs.arduino.cc/language-reference/en/functions/communication/wire/) is used for I2C protocol.
 
 ## Hardware
-* 128 x 64 OLED Screen
-* Arduino UNO
-* Joysticks
+> * 128 x 64 OLED Screen
+> * Arduino UNO
+> * Joysticks
+> * Jumper wires
 
 ## Framework
 ### Single Player Pong
