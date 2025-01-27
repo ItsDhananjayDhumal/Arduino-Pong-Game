@@ -1,7 +1,8 @@
 # Arduino Pong Game
-IIT Indore Electronics Club
+**IIT Indore Electronics Club**
 
-<img width="472" alt="image" src="https://github.com/user-attachments/assets/711fdc6c-7bf3-4df9-bde1-89aed6daca08" />
+![Screenshot_2025-01-27_144929-transformed](https://github.com/user-attachments/assets/4e8f34a1-3428-48ec-8ef9-8b09416c297e)
+
 
 ## Description
 Pong is one of the first ever computer games ever made. We made pong game using Arduino microcontroller, which is displayed on 128 x 64 OLED screen. Game can be played in single player mode as well as two player mode.
