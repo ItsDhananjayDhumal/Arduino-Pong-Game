@@ -18,12 +18,13 @@ int padY = 0;       // y coordinate of top pixel of pad
 #define padSpeed 2  // drift speed of pad
 
 
-//####################### UNCOMMENT IF I2C #############################
+//####################### UNCOMMENT IF I2C #################################
 #define OLED_SCL A5
 #define OLED_SDA A4
 #define OLED_RESET -1
 #define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+//###########################################################################
 
 // // ######################## UNCOMMENT IF SPI #############################
 // #define OLED_MOSI   9
@@ -33,7 +34,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // #define OLED_RESET 13
 // Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
 //   OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
-
+// // ########################################################################
 
 // coordinates and speed of ball
 int xdir = 2;  // speed in x
