@@ -5,7 +5,7 @@
 
 
 ## Description
-Pong is one of the first ever computer games ever made. We made pong game using Arduino microcontroller, which is displayed on 128 x 64 OLED screen. Game can be played in single player mode as well as two player mode.
+Pong is one of the first computer games ever made. We made pong game using Arduino microcontroller, which is displayed on 128 x 64 OLED screen. Game can be played in single player mode as well as two player mode.
 
 ## Table of contents
 1. [Libraries](#libraries)
